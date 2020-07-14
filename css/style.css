@@ -28,6 +28,14 @@ header ul {
     color: seashell;
 }
 
+.dark {
+    padding: 15px;
+    background: darkmagenta;
+    color: seashell;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 
 /* Header */
 
@@ -127,6 +135,20 @@ header a:hover {
 
 #boxes .box img {
     width: 50%;
+}
+
+
+/* Sidebar */
+
+aside#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+article#main-col {
+    float: left;
+    width: 65%;
 }
 
 footer {
